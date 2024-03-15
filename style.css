@@ -49,8 +49,8 @@
   --size-900: 4.938em;
   --size-890: 7.188em;
   --size-870: 6.938em;
-  --size-850: 4.938em;
-  --size-870: 2.938em;
+  --size-850: 3.938em;
+  --size-870: 3.938em;
   --size-860: 6.125em;
   --size-800: 5.938em;
   --size-750: 4.25em;
@@ -284,7 +284,7 @@ h1 {
 .fs-heading-primary {
   font-size: var(--fs-heading-primary);
   font-weight: var(--fw-bold);
-  line-height: 1.2;
+  line-height: 1;
   letter-spacing: -1px;
 }
 
