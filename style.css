@@ -49,8 +49,8 @@
   --size-900: 4.938em;
   --size-890: 7.188em;
   --size-870: 6.938em;
-  --size-850: 6.938em;
-  --size-870: 1.938em;
+  --size-850: 4.938em;
+  --size-870: 2.938em;
   --size-860: 6.125em;
   --size-800: 5.938em;
   --size-750: 4.25em;
@@ -229,7 +229,7 @@ h1 {
 }
 
 .flow {
-  padding-block-end: 0.5em;
+  padding-block-end: 0.2em;
 }
 
 /* UTILITY CLASSES */
