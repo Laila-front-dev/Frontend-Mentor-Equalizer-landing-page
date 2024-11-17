@@ -7,19 +7,22 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
-
+    <meta
+      name="description"
+      content="Frontend Mentor | Equalizer landing page"
+    />
     <title>Frontend Mentor | Equalizer landing page</title>
     <!-- CSS STYLE FILE -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="padding-block-start-500">
           <a href="index.html">
-            <img src="./assets/logo.svg" alt="equalizer" />
+            <img src="./assets/images/logo.svg" alt="equalizer" />
           </a>
         </div>
       </div>
@@ -31,7 +34,7 @@
           <div
             class="event__column padding-block-start-700 padding-block-end-750"
           >
-            <div>
+            <div class="hidden">
               <h1 class="fs-heading-primary flow">
                 We make your music sound extraordinary.
               </h1>
@@ -53,10 +56,10 @@
             class="bg__height | bg-neutral-900 margin-block-start-750 margin-block-end-890"
             style="border-radius: 12px"
           >
-            <div class="premium__image">
-              <img src="./assets/illustration-app.png" alt="mobil" />
+            <div class="premium__image hidden">
+              <img src="./assets/images/illustration-app.png" alt="mobil" />
             </div>
-            <div class="premium__card">
+            <div class="premium__card hidden">
               <h2 class="fs-heading-secondary flow">Premium EQ</h2>
               <p>
                 Get expert-level control with a robust equalizer, volume mixer,
@@ -80,7 +83,7 @@
         <div class="event__column space-between">
           <div class="footer">
             <div>
-              <img src="./assets/logo.svg" alt="equalizer" />
+              <img src="./assets/images/logo.svg" alt="equalizer" />
             </div>
             <div>
               <p>
@@ -94,18 +97,20 @@
           <div>
             <ul role="list">
               <li>
-                <a href="https://www.facebook.com/"
-                  ><img src="./assets/icon-facebook.svg" alt="facebook"
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="./assets/images/icon-facebook.svg" alt="facebook"
                 /></a>
               </li>
               <li>
-                <a href="https://www.instagram.com/"
-                  ><img src="./assets/icon-instagram.svg" alt="instagram"
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img
+                    src="./assets/images/icon-instagram.svg"
+                    alt="instagram"
                 /></a>
               </li>
               <li>
-                <a href="https://twitter.com/"
-                  ><img src="./assets/icon-twitter.svg" alt="twitter"
+                <a href="https://twitter.com/" target="_blank"
+                  ><img src="./assets/images/icon-twitter.svg" alt="twitter"
                 /></a>
               </li>
             </ul>
@@ -113,5 +118,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- js Folder -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
